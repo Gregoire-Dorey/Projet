@@ -55,11 +55,17 @@ body{
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Menu Titre Titre"
+    "Menu Titre ."
     "Menu . ."
     "Menu . .";
 }
 
-.Titre { grid-area: Titre; }
+.Titre {
+  grid-area: Titre;
+  border-radius: 10px;
+  border-style:solid;
+  border-color: blue;
+  background-color: white;
+}
 
 .Menu { grid-area: Menu; }
