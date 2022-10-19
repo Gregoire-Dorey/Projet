@@ -1,6 +1,6 @@
 *{
-  padding: 0;
-  margin: 0;
+  padding: 0%;
+  margin: 0%;
   box-sizing: border-box;
 }
 
@@ -48,7 +48,8 @@ body{
   background-size: cover;
 }
 
-.container {  display: grid;
+.container {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
