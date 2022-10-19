@@ -32,3 +32,6 @@ img.image_nav{
   margin-top : 10px;
   margin-bottom : 10px;
 }
+body{
+  background-image: url("images/background.jpg");
+}
