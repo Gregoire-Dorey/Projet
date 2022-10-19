@@ -43,21 +43,18 @@ img.image_nav{
   margin-top : 10px;
   margin-bottom : 10px;
 }
-body{
-  background-image: url("https://i.imgur.com/67TIVic.jpg");
-  background-size: cover;
-}
-
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 0.3fr 1.6fr 1fr;
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Menu Titre ."
-    "Menu . ."
-    "Menu . .";
+    "Menu Titre Titre";
+}
+
+.Menu {
+  grid-area: Menu;
 }
 
 .Titre {
@@ -66,6 +63,11 @@ body{
   border-style:solid;
   border-color: blue;
   background-color: white;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.Menu { grid-area: Menu; }
+body{
+  background-image: url("https://i.imgur.com/67TIVic.jpg");
+  background-size: cover;
+}
