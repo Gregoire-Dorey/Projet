@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Menu Titre ."
+    "Menu . ."
+    "Menu . .";
+}
+
+.Titre {
+  grid-area: Titre;
+  border-radius: 10px;
+  border-style:solid;
+  border-color: blue;
+  background-color: white;
+}
+
+.Menu { grid-area: Menu; }
