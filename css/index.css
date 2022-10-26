@@ -42,6 +42,7 @@ img.image_nav{
   margin-right: auto;
   margin-top : 10px;
   margin-bottom : 10px;
+  w
 }
 .container {
   display: grid;
@@ -77,11 +78,15 @@ img.image_nav{
   border-style:solid;
   border-color: rgb(70, 187, 174);
   background-color: white;
-  font-size: 14px;
+  font-size: 20px;
   margin-right: 4px;
 }
 
 body{
   background-image: url("https://i.imgur.com/67TIVic.jpg");
   background-size: cover;
+}
+#link{
+  text-decoration: none;
+  color: rgb(70, 187, 174);
 }
