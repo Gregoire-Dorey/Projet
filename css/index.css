@@ -14,7 +14,7 @@ ul {
   height: 100%;
   border-radius: 10px;
   border-style:solid;
-  border-color: rgb(70, 187, 174);
+  border-color: rgb(0, 0, 0);
   float: left;
   position: 0px;
 }
@@ -52,7 +52,8 @@ img.image_nav{
   grid-auto-flow: row;
   grid-template-areas:
     "Menu Titre Titre"
-    ". texte-1 texte-1";
+    ". texte-1 texte-1"
+    ". texte-2 texte-2";
 }
 
 .Menu {
@@ -63,7 +64,7 @@ img.image_nav{
   grid-area: Titre;
   border-radius: 10px;
   border-style:solid;
-  border-color: rgb(70, 187, 174);
+  border-color: rgb(0, 0, 0);
   background-color: white;
   text-align: center;
   text-transform: uppercase;
@@ -76,11 +77,23 @@ img.image_nav{
   grid-area: texte-1;
   border-radius: 10px;
   border-style:solid;
-  border-color: rgb(70, 187, 174);
+  border-color: rgb(0, 0, 0);
   background-color: white;
   font-size: 20px;
   margin-right: 4px;
 }
+
+.texte-2{
+  margin-top: 15px;
+  grid-area: texte-2;
+  border-radius: 10px;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: 20px;
+  margin-right: 4px;
+}
+
 
 body{
   background-image: url("https://i.imgur.com/67TIVic.jpg");
@@ -88,5 +101,5 @@ body{
 }
 #link{
   text-decoration: none;
-  color: rgb(70, 187, 174);
+  color: #3366ff;
 }
