@@ -93,6 +93,7 @@ img.image_nav{
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-right: 4px;
+  padding-left: 10px;
 }
 
 
@@ -124,6 +125,7 @@ body{
   background-color: white;
   font-size: 20px;
   margin-right: 4px;
+  text-align: center;
 }
 
 .Droite { grid-area: Droite;
@@ -135,6 +137,10 @@ background-color: white;
 font-size: 20px;
 margin-right: 4px;
 }
-img.img-gauche{
-  height: 10px;
+.img-gauche{
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
 }
