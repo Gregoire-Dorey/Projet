@@ -142,3 +142,13 @@ text-align: center;
   margin-left: auto;
   margin-right: auto }
 }
+.under {
+  text-decoration: underline red;
+}
+.center{
+  text-align : center;
+}
+.left{
+  text-align: left;
+}
+  
