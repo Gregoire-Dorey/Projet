@@ -69,12 +69,45 @@ body{
 
 .SOL { grid-area: SOL; }
 
-audio{
+.DG{
   height:200px;
   width:200px;
-  background-image: url("../images/sol.png");
+  background-image: url("../images/david-guetta.jpg");
   background-size: cover
 }
+
+.avicii-song{
+  height:200px;
+  width:200px;
+  background-image: url("../images/avicii.jpg");
+  background-size: cover
+}
+
+.avb-song{
+  height:200px;
+  width:200px;
+  background-image: url("../images/avb-Bla-bla-bla-bla.jpg");
+  background-size: cover
+}
+
+.mg-song{
+  height:200px;
+  width:200px;
+  background-image: url("../images/Martin-Garrix-Annimals.jpg");
+  background-size: cover
+}
+
+.sol-song{
+  height:200px;
+  width:200px;
+  background-image: url("../images/SOL-Im-so-excited.jpg");
+  background-size: cover
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+}
+
 audio:hover {
   transform: scale(1.1);
   filter: drop-shadow(2px 3px 3px #333);
