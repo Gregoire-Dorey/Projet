@@ -51,19 +51,15 @@ body{
 
 .container {
   display: grid;
-  grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Menu Titre Titre . ."
     "Menu David-Guetta Avicii AVB Martin-Garrix SOL";
 }
 
-
-.David-Guetta {
-  grid-area: David-Guetta;
-}
+.David-Guetta { grid-area: David-Guetta; }
 
 .Avicii { grid-area: Avicii; }
 
@@ -72,6 +68,17 @@ body{
 .Martin-Garrix { grid-area: Martin-Garrix; }
 
 .SOL { grid-area: SOL; }
+
+audio{
+  height:200px;
+  width:200px;
+  background-image: url("../images/sol.png");
+  background-size: cover
+}
+audio:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(2px 3px 3px #333);
+}
 
 
 
