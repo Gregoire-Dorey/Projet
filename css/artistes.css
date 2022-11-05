@@ -60,7 +60,8 @@ h2{
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Menu David-Guetta Avicii AVB Alan-Walker SOL";
+    "Menu David-Guetta Avicii AVB Alan-Walker SOL"
+    ". footer footer footer footer footer";
 }
 
 .David-Guetta {
@@ -186,4 +187,17 @@ audio:hover {
   margin-right: auto;
   height: 200px;
   width: 200px;
+}
+.footer{
+  margin-top: 15px;
+  grid-area: footer;
+  border-radius: 10px;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(97, 87, 87);
+  font-size: 20px;
+  margin-right: 4px;
+  color : white;
+  text-transform: uppercase;
+  text-align: center;
 }
