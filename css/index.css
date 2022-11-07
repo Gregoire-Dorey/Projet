@@ -43,7 +43,7 @@ img.image_nav{
   margin-top : 10px;
   margin-bottom : 10px;
 }
-.container {
+.principal {
   display: grid;
   grid-template-columns: 0.3fr 1.6fr 1fr;
   grid-template-rows: 1fr;
@@ -118,7 +118,7 @@ body{
   color: #F601E6;
 }
 
-.container-2 {
+.secondaire {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
