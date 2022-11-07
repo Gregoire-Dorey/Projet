@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-ul {
+ul { /*Toutes les propriètes relatives à la liste du menu*/
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -19,30 +19,30 @@ ul {
 }
 
 
-li a {
+li a { /*Propriètes des balises a  dans la liste du menu*/
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-li a.active {
+li a.active { /*Propriètes des possédant la classe active dans la balise li*/
   background-color: #3366ff;
   color: white;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active) { /*Propriètes des a survolé qui ne sont pas actif*/
   background-color: #555;
   color: white;
 }
-img.image_nav{
+.image_nav{ /*Propriètes de la classe image_nav*/
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top : 10px;
   margin-bottom : 10px;
 }
-.principal {
+.principal {/*Grille principal du site*/
   display: grid;
   grid-template-columns: 0.3fr 1.6fr 1fr;
   grid-template-rows: 1fr;
@@ -55,16 +55,12 @@ img.image_nav{
     ". footer footer";
 }
 
-.Menu {
+.Menu { /*Propriètes du menu*/
   grid-area: Menu;
 }
 
-.Titre {
+.Titre { /*Propriètes du Titre*/
   grid-area: Titre;
-  /*border-radius: 10px;
-  border-style:solid;
-  border-color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.5);*/
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -162,7 +158,7 @@ text-align: center;
 audio {
   height:200px;
   width:300px;
-  background-image: url("../images/jlow.png");
+  background-image: url("https://i.imgur.com/xvcOIzz.jpg");
   background-size: cover;
 }
 audio:hover {
