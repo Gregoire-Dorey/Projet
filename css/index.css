@@ -15,7 +15,6 @@ ul { /*Toutes les propriètes relatives à la liste du menu*/
   border-radius: 10px;
   border-style:solid;
   border-color: rgb(0, 0, 0);
-  float: left;
 }
 
 
@@ -45,7 +44,7 @@ li a:hover:not(.active) { /*Propriètes des a survolé qui ne sont pas actif*/
 .principal {/*Grille principal du site*/
   display: grid;
   grid-template-columns: 0.3fr 1.6fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
