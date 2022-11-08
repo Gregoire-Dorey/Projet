@@ -162,6 +162,10 @@ audio:hover {
   filter: drop-shadow(2px 3px 3px #333);
 }
 
+img{
+  border-radius: 10px;
+}
+
 
 
 .Menu {
