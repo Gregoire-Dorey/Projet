@@ -146,3 +146,12 @@ img{
 .details{
   font-size: 12px;
 }
+.underline{
+  text-decoration: underline;
+  font-weight: bold;
+}
+h2{
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
