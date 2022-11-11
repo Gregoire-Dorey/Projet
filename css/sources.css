@@ -50,14 +50,16 @@ body{
   background-size: cover;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr 1fr;
-  grid-template-rows: 1fr;
+.source {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1.8fr;
+  grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Menu Titre Titre";
+    "Titre"
+    "Contenue"
+    "footer";
 }
 
 .Titre {
@@ -69,15 +71,31 @@ body{
   margin-right: 4px;
 }
 
-.Menu { grid-area: Menu; }
-
-.contenue{
-  margin-top: 15px;
-  grid-area: contenue;
+.Contenue {
+  grid-area: Contenue;
   border-radius: 10px;
   border-style:solid;
   border-color: rgb(0, 0, 0);
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-right: 4px;
+}
+
+.link{
+  text-decoration: none;
+  color: #F601E6;
+}
+
+.footer{
+  margin-top: 15px;
+  grid-area: footer;
+  border-radius: 10px;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(97, 87, 87);
+  font-size: 20px;
+  margin-right: 4px;
+  color : white;
+  text-transform: uppercase;
+  text-align: center;
 }
