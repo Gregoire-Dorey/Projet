@@ -1,9 +1,9 @@
-*{
+*{/*Permet d"enelever les bordures*/
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
-
+/*Propriètes du menu*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,7 +24,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #3366ff;
 }
@@ -70,6 +69,7 @@ li a:hover {
   margin-right: 4px;
 }
 
+/*Propriètes des grilles texte-1 et texte-2*/
 .texte-1 {
   margin-top: 15px;
   grid-area: texte-1;
@@ -92,6 +92,7 @@ li a:hover {
   margin-right: 4px;
   padding-left: 10px;
 }
+/*Propriètes du footer*/
 .footer{
   margin-top: 15px;
   grid-area: footer;
@@ -105,7 +106,7 @@ li a:hover {
   text-transform: uppercase;
   text-align: center;
 }
-
+/*Permet de mettre une image ne fond*/
 body{
   background-image: url("https://i.imgur.com/SBtX7hH.jpg");
   background-size: cover;
@@ -114,7 +115,7 @@ body{
   text-decoration: none;
   color: #F601E6;
 }
-
+/*Propriètes des Grilles secondaire, Gauche,Droite*/
 .secondaire {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -143,7 +144,7 @@ font-size: 20px;
 margin-right: 4px;
 text-align: center;
 }
-
+/*Propriètes de l'image gauche*/
 .img-gauche{
   height: 300px;
   width: 350px;
@@ -151,26 +152,23 @@ text-align: center;
   margin-left: auto;
   margin-right: auto }
 
-.under {
-  text-decoration: underline red;
-}
-.center{
+.center{/*Permet de centrer les élémént de la classe center*/
   text-align : center;
 }
-audio {
+audio {/*style de l'élément audio*/
   height:200px;
   width:300px;
   background-image: url("https://i.imgur.com/xvcOIzz.jpg");
   background-size: cover;
 }
-audio:hover {
+audio:hover {/*Permet d'agrandir l'élément audio au survol de la souris*/
   transform: scale(1.1);
   filter: drop-shadow(2px 3px 3px #333);
 }
 h2{
   text-decoration: underline;
 }
-.copy-left {
+.copy-left {/*Permet de retourner le sybomle du CopyRight pour le transformer en symbole du copyleft*/
   display: inline-block;
   text-align: center;
   margin: 0px;
