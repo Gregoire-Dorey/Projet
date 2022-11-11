@@ -89,9 +89,9 @@ body{
   border-radius: 10px;
   border-style:solid;
   border-color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   font-size: 20px;
-  margin-right: 4px;
+  margin-right: 4px
 }
 
 .contenu {
@@ -99,7 +99,7 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-auto-columns: 1fr;
-  gap: 10px 10px;
+  gap: 15px 15px;
   grid-auto-flow: row;
   grid-template-areas:
     "Table Lumière Enceintes";
@@ -107,13 +107,21 @@ body{
 
 .Table {
   grid-area: Table;
-  text-align: center;
+  text-align: justify;
+  margin-left: 20px;
 }
 
 
-.Lumière { grid-area: Lumière; }
+.Lumière {
+  grid-area: Lumière;
+  text-align: justify;
+}
 
-.Enceintes { grid-area: Enceintes; }
+.Enceintes {
+  grid-area: Enceintes;
+  text-align: justify;
+  margin-right: 20px;
+}
 
 
 img{
@@ -148,7 +156,6 @@ img{
 }
 .underline{
   text-decoration: underline;
-  font-weight: bold;
 }
 h2{
   text-decoration: underline;

@@ -75,14 +75,15 @@ body{
   border-radius: 10px;
   border-style:solid;
   border-color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   font-size: 20px;
   margin-right: 4px;
 }
 
 .link{
   text-decoration: none;
-  color: #F601E6;
+  color: #7a0472;
+  font-weight: bold;
 }
 
 .footer{
