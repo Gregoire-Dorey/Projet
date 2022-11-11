@@ -177,10 +177,6 @@ img{
 
 .Titre {
   grid-area: Titre;
-  /*border-radius: 10px;
-  border-style:solid;
-  border-color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.5);*/
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -210,4 +206,18 @@ img{
 .legende{
   text-align: center;
   font-size: 11px;
+}
+.details{
+  font-size: 12px;
+}
+.copy-left {
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: “FlipH”;
 }
