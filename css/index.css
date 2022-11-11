@@ -4,42 +4,45 @@
   box-sizing: border-box;
 }
 
-ul { /*Toutes les propriètes relatives à la liste du menu*/
+ul {
   list-style-type: none;
   margin: 0;
-  padding: 0px;
-  width: 10%;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: fixed;
-  height: 100%;
-  border-radius: 10px;
-  border-style:solid;
-  border-color: rgb(0, 0, 0);
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+}
 
-li a { /*Propriètes des balises a  dans la liste du menu*/
+li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-li a.active { /*Propriètes des possédant la classe active dans la balise li*/
+/* Change the link color to #111 (black) on hover */
+li a:hover {
   background-color: #3366ff;
-  color: white;
 }
 
-li a:hover:not(.active) { /*Propriètes des a survolé qui ne sont pas actif*/
-  background-color: #555;
-  color: white;
+.active {
+  background-color: #3366ff;
 }
+
 .image_nav{ /*Propriètes de la classe image_nav*/
   display: block;
+  height: 40px;
+  width: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-top : 10px;
   margin-bottom : 10px;
+  margin-right: 20px;
+  border-radius: 50px;
 }
 .principal {/*Grille principal du site*/
   display: grid;
@@ -49,9 +52,9 @@ li a:hover:not(.active) { /*Propriètes des a survolé qui ne sont pas actif*/
   grid-auto-flow: row;
   grid-template-areas:
     "Menu Titre Titre"
-    ". texte-1 texte-1"
-    ". texte-2 texte-2"
-    ". footer footer";
+    "texte-1 texte-1 texte-1"
+    "texte-2 texte-2 texte-2"
+    "footer footer footer";
 }
 
 .Menu { /*Propriètes du menu*/
@@ -166,34 +169,4 @@ audio:hover {
 }
 h2{
   text-decoration: underline;
-}
-
-@media(max-width:1000px) {
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    color: #f1f1f1;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #3366ff;
-  }
-  .active {
-    background-color: #3366ff;
-  }
 }
